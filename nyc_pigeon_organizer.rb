@@ -35,10 +35,10 @@ def nyc_pigeon_organizer(data)
           final_array[name][key] = key
         end
         
-        if !final_array[name][key][inner_key]
-          final_array[name][key][inner_key] = inner_key
-          binding.pry
-        end
+        # if !final_array[name][key][inner_key]
+        #   final_array[name][key][inner_key] = inner_key
+        #   binding.pry
+        # end
         
       end
       
