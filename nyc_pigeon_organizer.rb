@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !final_array[name][key]
-          final_array[name][key] = value.collect
+          final_array[name][key] = name.collect
           binding.pry
         end
         
