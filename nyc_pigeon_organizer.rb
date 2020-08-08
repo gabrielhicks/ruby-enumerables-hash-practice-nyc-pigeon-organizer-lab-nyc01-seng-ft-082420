@@ -20,5 +20,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  data.each_with_obj({}) do
+  data.each_with_obj({}) do |key, value|
+    
+  end
 end
