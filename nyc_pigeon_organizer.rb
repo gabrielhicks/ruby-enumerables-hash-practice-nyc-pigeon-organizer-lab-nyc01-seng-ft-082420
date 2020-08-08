@@ -17,7 +17,6 @@
       #   }
       # }
 
-require 'pry'
 
 def nyc_pigeon_organizer(data)
   
@@ -41,5 +40,5 @@ def nyc_pigeon_organizer(data)
     end
     
   end
-  final_results
+
 end
