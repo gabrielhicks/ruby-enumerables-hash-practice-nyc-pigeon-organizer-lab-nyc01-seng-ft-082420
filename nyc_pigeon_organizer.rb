@@ -1,13 +1,13 @@
       # pigeon_data = {
-      #   :color => {
-      #     :purple => ["Theo", "Peter Jr.", "Lucky"],
-      #     :grey => ["Theo", "Peter Jr.", "Ms. K"],
-      #     :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
-      #     :brown => ["Queenie", "Alex"]
+      #   :color => { /// this is the key
+      #     :purple => ["Theo", "Peter Jr.", "Lucky"], /// purple is the 'value'
+      #     :grey => ["Theo", "Peter Jr.", "Ms. K"], /// use each operator on value to store color as inner_key 
+      #     :white => ["Queenie", "Andrew", "Ms. K", "Alex"], // names are stored under names variable
+      #     :brown => ["Queenie", "Alex"] // each operator on names, search new hash if not then create
       #   },
       #   :gender => {
-      #     :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"],
-      #     :female => ["Queenie", "Ms. K"]
+      #     :male => ["Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"], // if each key does not exist in new hash under name, create it
+      #     :female => ["Queenie", "Ms. K"] // push the (old) catagories as "inner_keys" to new keys
       #   },
       #   :lives => {
       #     "Subway" => ["Theo", "Queenie"],
