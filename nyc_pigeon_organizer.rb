@@ -32,14 +32,14 @@ def nyc_pigeon_organizer(data)
         end
         
         if !final_array[name][key]
-          final_array[name][key] = name.collect
+          final_array[name][key] = []
           binding.pry
         end
         
-        # if !final_array[name][key][inner_key]
-        #   final_array[name][key][inner_key] = inner_key
-        #   binding.pry
-        # end
+        if !final_array[name][key][inner_key]
+          final_array[name][key][inner_key] = inner_key
+          binding.pry
+        end
         
       end
       
